@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ThirdActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+    <EditText
+        android:id="@+id/edittextphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:inputType="phone"/>
+
+    <ImageButton
+        android:id="@+id/imgbtnphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/edittextphone"
+        android:layout_marginEnd="45dp"
+        android:src="@android:drawable/ic_menu_call" />
+
+
+    <EditText
+        android:id="@+id/edittextweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/edittextphone"
+        android:layout_marginTop="172dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
+
+        <ImageButton
+            android:id="@+id/imgbtnWeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/edittextweb"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="38dp"
+            android:src="@android:drawable/ic_menu_view" />
+
+
+    </RelativeLayout>
+
+
+
+    <ImageButton
+        android:id="@+id/imgbtncamera"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:background="#e91e63"
+        android:src="@android:drawable/ic_menu_camera" />
+
+</RelativeLayout>
